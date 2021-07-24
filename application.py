@@ -515,4 +515,4 @@ def change_graph(primary, books, all_check, clicks, error, histo, store, select_
     
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server("0.0.0.0", 8000, debug = True)
